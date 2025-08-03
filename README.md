@@ -14,9 +14,16 @@ The **Autonomous Wildlife Monitoring System** is designed to detect, track, and 
 
 Image detection in this system utilizes YOLOv8 to detect animals in images, drawing bounding boxes with labels and confidence scores. It employs Dijkstra's Algorithm to analyze the spatial relationships between animals, measuring the distances between them. These interactions are then visualized using Matplotlib, providing insights into animal positions, movements, and behaviors.
 
+![Zebra Output](https://github.com/FatimaNW/Autonomous-Wildlife-Monitoring-System/blob/main/Output%20Files/zebra2_output.png)
+
+
+<img src="https://github.com/FatimaNW/Autonomous-Wildlife-Monitoring-System/blob/main/Output%20Files/zebra2_animal_graph.png" alt="Zebra Graph" width="650" height="600">
+
 ### 2. Sound Detection 
 
 Sound Detection analyzes and classifies animal sounds using Librosa with audio normalization and visualization. Emotion-based color coding and a an animal mood classifier detects the emotional states of animals, providing insights into animal behavior.
+
+<img src="https://github.com/FatimaNW/Autonomous-Wildlife-Monitoring-System/blob/main/Output%20Files/sound_output.png" alt="Zebra Graph" width="650" height="600">
 
 ### 3. Video Detection    
 
