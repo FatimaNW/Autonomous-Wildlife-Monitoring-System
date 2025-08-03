@@ -23,8 +23,11 @@ Image detection in this system utilizes YOLOv8 to detect animals in images, draw
 
 Sound Detection analyzes and classifies animal sounds using Librosa with audio normalization and visualization. Emotion-based color coding and a an animal mood classifier detects the emotional states of animals, providing insights into animal behavior.
 
-<img src="https://github.com/FatimaNW/Autonomous-Wildlife-Monitoring-System/blob/main/Output%20Files/sound_output.png" alt="Zebra Graph" width="650" height="600">
+<img src="https://github.com/FatimaNW/Autonomous-Wildlife-Monitoring-System/blob/main/Output%20Files/sound_output.png" alt="Sound Graph" width="650" height="600">
 
 ### 3. Video Detection    
 
 Identifies animals like in video frames using Haar Cascade and YOLO. OpenCV processes frames, draws bounding boxes, and displays confidence scores. Google Colab Patches enable frame display within Jupyter notebooks.
+
+<img src="https://github.com/FatimaNW/Autonomous-Wildlife-Monitoring-System/blob/main/Output%20Files/output_videoFrame2.PNG" alt="Video Frame 1" width="650" height="600">
+<img src="https://github.com/FatimaNW/Autonomous-Wildlife-Monitoring-System/blob/main/Output%20Files/output_videoFrame3.PNG" alt="Video Frame 2" width="650" height="600">
