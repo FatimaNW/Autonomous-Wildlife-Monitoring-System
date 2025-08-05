@@ -1,14 +1,14 @@
-# Autonomous Wildlife Monitoring System
+# 🖥 Autonomous Wildlife Monitoring System
 
 The **Autonomous Wildlife Monitoring System** is designed to detect, track, and analyze wildlife through video and sound detection. This system leverages AI techniques like Computer ision and Audio Processing, making it ideal for wildlife research, conservation efforts, and security purposes.
 
-## Technologies Used  
+## 🛠 Technologies Used  
 - **Computer Vision**: OpenCV, Haar Cascade, YOLOv8  
 - **Audio Processing**: Librosa  
 - **Visualization**: Matplotlib  
 - **Programming Language**: Python
 
-## Features  
+## 🚀 Features  
 
 ### 1. Image Detection  
 
@@ -31,3 +31,14 @@ Identifies animals like in video frames using Haar Cascade and YOLO. OpenCV proc
 
 <img src="https://github.com/FatimaNW/Autonomous-Wildlife-Monitoring-System/blob/main/Output%20Files/output_videoFrame2.PNG" alt="Video Frame 1" width="650" height="600">
 <img src="https://github.com/FatimaNW/Autonomous-Wildlife-Monitoring-System/blob/main/Output%20Files/output_videoFrame3.PNG" alt="Video Frame 2" width="650" height="600">
+
+## 🧭 How to Use
+
+1. Download the `.ipynb` file from this repository.
+2. Open it in Google Colab or Jupyter Notebook.
+3. Upload the `input/` folder (containing the sample images, videos, and audio files) into your Colab/Jupyter environment.
+4. Update the file paths in the notebook to point to the files inside your uploaded `input/` folder.
+5. Run the notebook cells:
+   - **Image and audio detections**: Results (labels, distances, mood) will be displayed directly in the output terminal, not saved as files.
+   - **Video detection**: Processed frames will be shown in the terminal, and a separate output video file (with detections drawn) will be generated.
+
