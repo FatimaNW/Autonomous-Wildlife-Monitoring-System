@@ -34,10 +34,10 @@ Identifies animals like in video frames using Haar Cascade and YOLO. OpenCV proc
 
 ## 🧭 How to Use
 
-1. Download the `.ipynb` file from this repository.
-2. Open it in Google Colab or Jupyter Notebook.
+1. Download the `.ipynb` files from this repository.
+2. Open them in Google Colab or Jupyter Notebook.
 3. Upload the `input/` folder (containing the sample images, videos, and audio files) into your Colab/Jupyter environment.
-4. Update the file paths in the notebook to point to the files inside your uploaded `input/` folder.
+4. Update the file paths in the notebooks to point to the files inside your uploaded `input/` folder.
 5. Run the notebook cells:
    - **Image and audio detections**: Results (labels, distances, mood) will be displayed directly in the output terminal, not saved as files.
    - **Video detection**: Processed frames will be shown in the terminal, and a separate output video file (with detections drawn) will be generated.
